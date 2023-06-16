@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+header {
+  width: 70%;
+  display: flex;
+  justify-content: space-between; }
+  header nav {
+    color: #4E4E91;
+    display: flex; }
+    header nav a {
+      margin: 10px;
+      font-size: 15px; }
+    header nav button {
+      background-color: #FF4800;
+      border: 0;
+      color: white;
+      width: 130px;
+      height: 40px;
+      text-align: center; }
+
+#home {
+  display: flex;
+  width: 70%;
+  margin: 100px; }
+  #home h1 {
+    font-size: 48px; }
+  #home p {
+    font-size: 16px; }
+  #home input {
+    width: 300px;
+    height: 50px;
+    border-radius: 0px 0px 20px 20px; }
+  #home button {
+    color: white;
+    background-color: #4E4E91;
+    border: 0;
+    border-radius: 0px 0px 20px 20px;
+    width: 150px;
+    height: 50px; }
+
+#divider {
+  width: 100%;
+  background-color: #E8EBF3;
+  display: flex;
+  justify-content: center; }
+  #divider div {
+    width: 60%;
+    display: flex;
+    justify-content: space-between; }
+
+#howPaysilo {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 100px; }
+  #howPaysilo h2 {
+    font-size: 36px; }
+
+/*# sourceMappingURL=style.css.map */
